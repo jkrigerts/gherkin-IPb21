@@ -1,8 +1,11 @@
+import GherkinTable from "./components/GherkinTable";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hi, Justiņ</h1>
-    </div>
+    <>
+      <h1>Gherkin tulkojumi</h1>
+      <GherkinTable />
+    </>
   );
 }
 
